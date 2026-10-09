@@ -1,0 +1,162 @@
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+ERROR:    Error loading ASGI app. Could not import module "api".
+INFO:     Started server process [13592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[loader] Loaded 217 CIDR entries from: ./reference/cidr_db.csv
+[graph] Loaded 27 nodes, 56 directed edges (28 bidirectional pairs)
+[graph] Precomputed 729 node-pair paths.
+INFO:     ::1:62676 - "GET /health HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     ::1:62755 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     ::1:62796 - "GET /stats HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /stats HTTP/1.1" 200 OK
+INFO:     ::1:62796 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     ::1:62796 - "GET /stats HTTP/1.1" 200 OK
+INFO:     ::1:62796 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /stats HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "POST /auth/logout HTTP/1.1" 200 OK
+INFO:     ::1:62755 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     10.99.113.52:50235 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     10.99.113.52:50235 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.52:50235 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     10.99.113.52:50235 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.52:50235 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.52:50235 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.52:50235 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:60241 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:60241 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:60241 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:60241 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:60241 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:60241 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:54266 - "POST /resolve/ip HTTP/1.1" 200 OK
+INFO:     10.99.113.51:54266 - "POST /resolve/csv HTTP/1.1" 200 OK
+INFO:     10.99.113.51:54266 - "GET /requests?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:54266 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:54266 - "GET /stats?period=daily&start_date=2026-09-25&end_date=2026-10-01 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /requests?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /stats?period=daily&start_date=2026-09-25&end_date=2026-10-01 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /requests?page=1&page_size=200&date_from=2026-09-25&date_to=2026-10-01T23:59:59 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /requests?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:49227 - "GET /requests?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:61209 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:61209 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:61209 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55424 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59877 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.101.1:63271 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     10.99.101.1:58021 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "GET /requests?page=1&page_size=20 HTTP/1.1" 200 OK
+INFO:     10.99.101.1:58021 - "POST /auth/logout HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:59431 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:56893 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50040 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50041 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50049 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50051 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50053 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50056 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50057 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50060 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50061 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50063 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50065 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50067 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50069 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50071 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50073 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50075 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50077 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50915 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50916 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50917 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50918 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "POST /auth/logout HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /requests?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /stats HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /stats?period=monthly HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /firewalls HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /firewalls HTTP/1.1" 200 OK
+INFO:     10.99.113.51:55425 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:57120 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:57120 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:51988 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:51988 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:51988 - "GET /firewalls HTTP/1.1" 200 OK
+INFO:     10.99.113.51:51988 - "GET /firewalls HTTP/1.1" 200 OK
+INFO:     10.99.113.51:51988 - "GET /auth/users HTTP/1.1" 200 OK
+INFO:     10.99.113.51:61422 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     10.99.113.51:61422 - "GET /auth/users HTTP/1.1" 200 OK

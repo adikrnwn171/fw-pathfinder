@@ -1,0 +1,390 @@
+﻿{
+  "physicals": {
+    "DC-FW-TIER31-L3": {
+      "vr_serverfarm": {
+        "gates": [
+          "Outside"
+        ],
+        "zones": [
+          "DC T3 SF-InsideCICD",
+          "DC T3 SF-Inside1"
+        ]
+      },
+      "vr_switching": {
+        "gates": [
+          "Outside"
+        ],
+        "zones": [
+          "DC T3 SW-Inside"
+        ]
+      },
+      "vr_ecommerce": {
+        "gates": [
+          "Outside"
+        ],
+        "zones": [
+          "DC T3 ECOM-Inside"
+        ]
+      },
+      "vr_development": {
+        "gates": [
+          "Outside"
+        ],
+        "zones": [
+          "DC T3 DEV-Inside"
+        ]
+      }
+    },
+    "DC-FW-TIER21-L3": {
+      "DC-APP-DEV": {
+        "gates": [
+          "DEV-Inside",
+          "DEV-Outside"
+        ],
+        "zones": [
+          "DC T2 DEV-DMZ"
+        ]
+      },
+      "DC-APP-SF": {
+        "gates": [
+          "SF-Inside",
+          "SF-Outside"
+        ],
+        "zones": [
+          "DC T2 SF-DMZ",
+          "DC T2 SF-DMZ-2"
+        ]
+      },
+      "DC-APP-SW": {
+        "gates": [
+          "SW-Inside",
+          "SW-Outside"
+        ],
+        "zones": [
+          "DC T2 SW-DMZ"
+        ]
+      },
+      "DC-APP-ECOM": {
+        "gates": [
+          "ECOM-Inside",
+          "ECOM-Outside"
+        ],
+        "zones": [
+          "DC T2 ECOM-DMZ"
+        ]
+      }
+    },
+    "DC-FW-TIER11-L3": {
+      "DC-T1-DEV": {
+        "gates": [
+          "DEV-Outside",
+          "DEV-Inside"
+        ],
+        "zones": [
+          "DC T1 DEV-DMZ"
+        ]
+      },
+      "DC-T1-SF": {
+        "gates": [
+          "SF-Outside",
+          "SF-Inside"
+        ],
+        "zones": [
+          "DC T1 SF-DMZ",
+          "DC T1 SF-DMZ-2",
+          "DC T1 SF-App Manager"
+        ]
+      },
+      "ECOM-Outside": {
+        "gates": [
+          "Internet",
+          "Internal"
+        ],
+        "zones": []
+      }
+    },
+    "DC-FW-ECOM11-L3": {
+      "DC-T1-ECOM": {
+        "gates": [
+          "ECOM-Outside",
+          "ECOM-Inside"
+        ],
+        "zones": [
+          "DC T1 ECOM-DMZ"
+        ]
+      }
+    },
+    "DC-FW-SWITCHING11-L3": {
+      "DC-T1-SW": {
+        "gates": [
+          "SW-Outside",
+          "SW-Inside"
+        ],
+        "zones": [
+          "DC SW T1 SW-DMZ"
+        ]
+      }
+    },
+    "DC-FW-MGMNT11-L3": {
+      "Management OOB": {
+        "gates": [
+          "Outside"
+        ],
+        "zones": [
+          "SF-MGMTCICD",
+          "SF-MGMTSW",
+          "MGMTSVR1",
+          "MGMTSVR2",
+          "MGMTNET1",
+          "MGMTSVR4",
+          "MGMTSVR5",
+          "MGMTSVR3"
+        ]
+      }
+    },
+    "DC-FW-INTCONNECT11-L3": {
+      "Interconnect": {
+        "gates": [
+          "WAN Outside",
+          "Outmerger"
+        ],
+        "zones": []
+      }
+    },
+    "DC-FW-EXT-INT2-L3": {
+      "INET": {
+        "gates": [
+          "rn internal",
+          "dc_prisma_rn_internet"
+        ],
+        "zones": []
+      },
+      "EXT": {
+        "gates": [
+          "inside"
+        ],
+        "zones": []
+      },
+      "EXT 2": {
+        "gates": [
+          "inside"
+        ],
+        "zones": []
+      }
+    },
+    "DC-FW-VPN2": {
+      "VPN": {
+        "gates": [
+          "dc_vpn_s2s",
+          "dc_vpn_ipsec"
+        ],
+        "zones": []
+      }
+    },
+    "other": {
+      "unconfigured": {
+        "gates": [
+          "Core",
+          "Internet"
+        ],
+        "zones": []
+      }
+    },
+    "DRC-FW-TIER11-L3": {
+      "DRC-T1-SF": {
+        "gates": [
+          "SF-Inside",
+          "SF-Outside"
+        ],
+        "zones": [
+          "DRC T1 SF-DMZ",
+          "DRC T1 SF-DMZ-2"
+        ]
+      }
+    },
+    "DRC-FW-TIER21-L3": {
+      "DRC-APP-SF": {
+        "gates": [
+          "SF-Inside",
+          "SF-Outside"
+        ],
+        "zones": [
+          "DRC T2 SF-DMZ",
+          "DRC T2 SF-CICD"
+        ]
+      }
+    },
+    "DRC-FW-MGMNT11-L3": {
+      "Management OOB": {
+        "gates": [
+          "Outside"
+        ],
+        "zones": [
+          "SF-MGMTSW",
+          "SF-MGMT-CICD",
+          "SF-MGMTSVR1",
+          "SF-MGMTSVR2",
+          "SF-MGMTNET1",
+          "SF-MGMTSVR3"
+        ]
+      }
+    },
+    "DRC-FW-ECOM11-L3": {
+      "VS-DRC-T1-ECOM": {
+        "gates": [
+          "ECOM-Inside",
+          "ECOM-Outside"
+        ],
+        "zones": [
+          "DRC ECOM DMZ"
+        ]
+      }
+    },
+    "DRC-FW-DEV11-L3": {
+      "VS-DRC-T1-DEV": {
+        "gates": [
+          "DEV-Inside",
+          "DEV-Outside"
+        ],
+        "zones": [
+          "DRC-T1-DEV-DMZ",
+          "DRC-T1-DEV-DMZ-2"
+        ]
+      },
+      "VS-DRC-APP-DEV": {
+        "gates": [
+          "DEV-Inside",
+          "DEV-Outside"
+        ],
+        "zones": [
+          "DRC-APP-DEV-DMZ",
+          "DRC-APP-DEV-DMZ-2"
+        ]
+      },
+      "VS-DRC-DB-DEV": {
+        "gates": [
+          "DEV-Inside",
+          "DEV-Outside"
+        ],
+        "zones": [
+          "DRC-DB-DEV-Inside",
+          "DRC-DB-DEV-Inside-2"
+        ]
+      }
+    }
+  },
+  "connections": [
+    [
+      "DC-FW-TIER31-L3.vr_ecommerce.Outside",
+      "DC-FW-TIER21-L3.DC-APP-ECOM.ECOM-Inside"
+    ],
+    [
+      "DC-FW-TIER31-L3.vr_switching.Outside",
+      "DC-FW-TIER21-L3.DC-APP-SW.SW-Inside"
+    ],
+    [
+      "DC-FW-TIER31-L3.vr_serverfarm.Outside",
+      "DC-FW-TIER21-L3.DC-APP-SF.SF-Inside"
+    ],
+    [
+      "DC-FW-TIER31-L3.vr_development.Outside",
+      "DC-FW-TIER21-L3.DC-APP-DEV.DEV-Inside"
+    ],
+    [
+      "DC-FW-TIER21-L3.DC-APP-ECOM.ECOM-Outside",
+      "DC-FW-ECOM11-L3.DC-T1-ECOM.ECOM-Inside"
+    ],
+    [
+      "DC-FW-TIER21-L3.DC-APP-SW.SW-Outside",
+      "DC-FW-SWITCHING11-L3.DC-T1-SW.SW-Inside"
+    ],
+    [
+      "DC-FW-TIER21-L3.DC-APP-SF.SF-Outside",
+      "DC-FW-TIER11-L3.DC-T1-SF.SF-Inside"
+    ],
+    [
+      "DC-FW-TIER21-L3.DC-APP-DEV.DEV-Outside",
+      "DC-FW-TIER11-L3.DC-T1-DEV.DEV-Inside"
+    ],
+    [
+      "DC-FW-ECOM11-L3.DC-T1-ECOM.ECOM-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-TIER11-L3.DC-T1-SF.SF-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-TIER11-L3.DC-T1-DEV.DEV-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-TIER11-L3.ECOM-Outside.Internet",
+      "other.unconfigured.Internet"
+    ],
+    [
+      "DC-FW-TIER11-L3.ECOM-Outside.Internal",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-SWITCHING11-L3.DC-T1-SW.SW-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-MGMNT11-L3.Management OOB.Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-INTCONNECT11-L3.Interconnect.WAN Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-EXT-INT2-L3.INET.rn internal",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-EXT-INT2-L3.EXT.inside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-EXT-INT2-L3.EXT 2.inside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DC-FW-EXT-INT2-L3.INET.dc_prisma_rn_internet",
+      "other.unconfigured.Internet"
+    ],
+    [
+      "DC-FW-VPN2.VPN.dc_vpn_s2s",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DRC-FW-TIER11-L3.DRC-T1-SF.SF-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DRC-FW-TIER21-L3.DRC-APP-SF.SF-Outside",
+      "DRC-FW-TIER11-L3.DRC-T1-SF.SF-Inside"
+    ],
+    [
+      "DRC-FW-MGMNT11-L3.Management OOB.Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DRC-FW-ECOM11-L3.VS-DRC-T1-ECOM.ECOM-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DRC-FW-DEV11-L3.VS-DRC-T1-DEV.DEV-Outside",
+      "other.unconfigured.Core"
+    ],
+    [
+      "DRC-FW-DEV11-L3.VS-DRC-APP-DEV.DEV-Outside",
+      "DRC-FW-DEV11-L3.VS-DRC-T1-DEV.DEV-Inside"
+    ],
+    [
+      "DRC-FW-DEV11-L3.VS-DRC-DB-DEV.DEV-Outside",
+      "DRC-FW-DEV11-L3.VS-DRC-APP-DEV.DEV-Inside"
+    ]
+  ]
+}

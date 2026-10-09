@@ -1,0 +1,22 @@
+source_node,source_firewall,source_vsys,source_gate,target_node,target_firewall,target_vsys,target_gate,link_label
+DC-FW-TIER31-L3::vr_ecommerce,DC-FW-TIER31-L3,vr_ecommerce,Outside,DC-FW-TIER21-L3::DC-APP-ECOM,DC-FW-TIER21-L3,DC-APP-ECOM,ECOM-Inside,Outside <-> ECOM-Inside
+DC-FW-TIER31-L3::vr_switching,DC-FW-TIER31-L3,vr_switching,Outside,DC-FW-TIER21-L3::DC-APP-SW,DC-FW-TIER21-L3,DC-APP-SW,SW-Inside,Outside <-> SW-Inside
+DC-FW-TIER31-L3::vr_serverfarm,DC-FW-TIER31-L3,vr_serverfarm,Outside,DC-FW-TIER21-L3::DC-APP-SF,DC-FW-TIER21-L3,DC-APP-SF,SF-Inside,Outside <-> SF-Inside
+DC-FW-TIER31-L3::vr_development,DC-FW-TIER31-L3,vr_development,Outside,DC-FW-TIER21-L3::DC-APP-DEV,DC-FW-TIER21-L3,DC-APP-DEV,DEV-Inside,Outside <-> DEV-Inside
+DC-FW-TIER21-L3::DC-APP-ECOM,DC-FW-TIER21-L3,DC-APP-ECOM,ECOM-Outside,DC-FW-ECOM11-L3::DC-T1-ECOM,DC-FW-ECOM11-L3,DC-T1-ECOM,ECOM-Inside,ECOM-Outside <-> ECOM-Inside
+DC-FW-TIER21-L3::DC-APP-SW,DC-FW-TIER21-L3,DC-APP-SW,SW-Outside,DC-FW-SWITCHING11-L3::DC-T1-SW,DC-FW-SWITCHING11-L3,DC-T1-SW,SW-Inside,SW-Outside <-> SW-Inside
+DC-FW-TIER21-L3::DC-APP-SF,DC-FW-TIER21-L3,DC-APP-SF,SF-Outside,DC-FW-TIER11-L3::DC-T1-SF,DC-FW-TIER11-L3,DC-T1-SF,SF-Inside,SF-Outside <-> SF-Inside
+DC-FW-TIER21-L3::DC-APP-DEV,DC-FW-TIER21-L3,DC-APP-DEV,DEV-Outside,DC-FW-TIER11-L3::DC-T1-DEV,DC-FW-TIER11-L3,DC-T1-DEV,DEV-Inside,DEV-Outside <-> DEV-Inside
+DC-FW-ECOM11-L3::DC-T1-ECOM,DC-FW-ECOM11-L3,DC-T1-ECOM,ECOM-Outside,other::unconfigured,other,unconfigured,Core,ECOM-Outside <-> Core
+DC-FW-TIER11-L3::DC-T1-SF,DC-FW-TIER11-L3,DC-T1-SF,SF-Outside,other::unconfigured,other,unconfigured,Core,SF-Outside <-> Core
+DC-FW-TIER11-L3::DC-T1-DEV,DC-FW-TIER11-L3,DC-T1-DEV,DEV-Outside,other::unconfigured,other,unconfigured,Core,DEV-Outside <-> Core
+DC-FW-TIER11-L3::ECOM-Outside,DC-FW-TIER11-L3,ECOM-Outside,Internet,other::unconfigured,other,unconfigured,Internet,Internet <-> Internet
+DC-FW-TIER11-L3::ECOM-Outside,DC-FW-TIER11-L3,ECOM-Outside,Internal,other::unconfigured,other,unconfigured,Core,Internal <-> Core
+DC-FW-SWITCHING11-L3::DC-T1-SW,DC-FW-SWITCHING11-L3,DC-T1-SW,SW-Outside,other::unconfigured,other,unconfigured,Core,SW-Outside <-> Core
+DC-FW-MGMNT11-L3::Management OOB,DC-FW-MGMNT11-L3,Management OOB,Outside,other::unconfigured,other,unconfigured,Core,Outside <-> Core
+DC-FW-INTCONNECT11-L3::Interconnect,DC-FW-INTCONNECT11-L3,Interconnect,WAN Outside,other::unconfigured,other,unconfigured,Core,WAN Outside <-> Core
+DC-FW-EXT-INT2-L3::INET,DC-FW-EXT-INT2-L3,INET,rn internal,other::unconfigured,other,unconfigured,Core,rn internal <-> Core
+DC-FW-EXT-INT2-L3::EXT,DC-FW-EXT-INT2-L3,EXT,inside,other::unconfigured,other,unconfigured,Core,inside <-> Core
+DC-FW-EXT-INT2-L3::EXT 2,DC-FW-EXT-INT2-L3,EXT 2,inside,other::unconfigured,other,unconfigured,Core,inside <-> Core
+DC-FW-EXT-INT2-L3::INET,DC-FW-EXT-INT2-L3,INET,dc_prisma_rn_internet,other::unconfigured,other,unconfigured,Internet,dc_prisma_rn_internet <-> Internet
+DC-FW-VPN2::VPN,DC-FW-VPN2,VPN,dc_vpn_s2s,other::unconfigured,other,unconfigured,Core,dc_vpn_s2s <-> Core

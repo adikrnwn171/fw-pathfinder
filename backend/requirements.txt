@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+pandas
+openpyxl
+xlrd
+python-multipart
+sqlalchemy[asyncio]>=2.0
+asyncpg
+alembic
+dotenv
+email-validator
+PyJWT
+psycopg[binary]
+bcrypt
